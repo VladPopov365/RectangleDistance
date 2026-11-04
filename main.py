@@ -17,7 +17,8 @@ def corner_distance(x1, y1, x2, y2, x3, y3, x4, y4) -> float:
     return top_left + bottom_right
 
 def main():
-    print(cg_distance(1, 2, 3, 0, 3, 4, 5, 2))
+    print("cg_distance: ", cg_distance(1, 2, 3, 0, 3, 4, 5, 2))
+    print("corner_distance: ", corner_distance(1, 2, 3, 0, 3, 4, 5, 2))
 
 if __name__ == '__main__':
     main()
